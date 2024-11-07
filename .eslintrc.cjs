@@ -72,6 +72,12 @@ module.exports = {
     // 避免 `eslint` 对于 `typescript` 函数重载的误报
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
+    'vue/component-tags-order': [
+      'warn',
+      {
+        order: ['script', 'template', 'style'],
+      },
+    ],
   },
   // eslint-import-resolver-typescript 插件，@see https://www.npmjs.com/package/eslint-import-resolver-typescript
   settings: {

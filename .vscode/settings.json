@@ -16,10 +16,10 @@
   "less.validate": false,
   "scss.validate": false,
   "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "github.vscode-github-actions"
   },
   "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor.defaultFormatter": "github.vscode-github-actions"
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
